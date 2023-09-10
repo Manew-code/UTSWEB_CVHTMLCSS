@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portofolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="images/logo-telkom-schools-bundar-1024x1024.png" class="logo">
+                <ul>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#portofolio">portofolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text" >
+                <p>Student of SMK Telkom</p>
+                <h1>Hi,I'am <span>Rifky</span> <br>Prasetyo From X PPLG 3</h1>
+            </div>
+        </div>
+    </div>
+<!-- ------------About----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/5204e1eb-5240-4ba8-b857-97e48595f64b.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Nama saya Rifky Prasetyo, saya murid dari SMK Telkom Purwokerto dari kelas XI PPLG 5,dan berabsen nomor urut 28
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Ilustration</span><br>Membuat sebuah karakter dari 0</li>
+                            <li><span>mockup Designer</span><br>mendesign sebuah produk</li>
+                            <li><span>Logo Designer</span><br>mendesign logo suatu perusahaan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------Portofolio----------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Artboard 1.png">
+                <div class="layer">
+                    <h3>vector art</h3>
+                    <p>vektor adalah sebuah gambar yang dibuat berdasarkan titik koordinat geometris tertentu. Boleh dibilang vektor image merupakan gambar yang tersusun dari garis - garis lurus maupun lengkung yang tersusun secara matematis
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/334979f9-38b5-4c9c-a0cd-719bb794256d.jpg">
+                <div class="layer">
+                    <h3>mockup design</h3>
+                    <p>mockup adalah gambaran mid-fidelity ataupun high-fidelity yang menggambarkan pilihan warna desain, layout, tipografi, iconography, visual navigasi, dan keseluruhan tampilan produk yang didesain
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Artboard 1 (2).png">
+                <div class="layer">
+                    <h3>logo design</h3>
+                    <p>Sebuah desain logo merupakan perwakilan sebuah perusahaan. Desain logo perusahaan adalah pembeda visual suatu perusahaan dengan perusahaan lain.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p class="">Instagram: @rfky2more</p>
+                <p>No       : 081225146017</p>
+                <div class="social-icons">
+                    <h1></h1>
+                </div>
+                <a href="" class="">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                    <button type="submit" class="btn btn--primary">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
